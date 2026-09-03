@@ -1,0 +1,573 @@
+/* =========================================================
+   COZY LUXURY COLOR OVERRIDE
+   Paste BELOW your guest.css
+   ========================================================= */
+
+:root {
+
+    --deep-navy: #5B5F3A;
+    --text-main: #4E5331;
+    --text-soft: #7A7D5A;
+
+    --hero-1: #B7C99A;
+    --hero-2: #D8C88A;
+
+    --card-bg-1: #FFFDF7;
+    --card-bg-2: #FFF8EE;
+
+    --soft-yellow: #F4DE9B;
+    --soft-green: #B8D4A8;
+
+    --hover-yellow: #FFE8A3;
+}
+
+/* =========================================================
+   BODY
+   ========================================================= */
+
+body {
+
+    background:
+        radial-gradient(circle at top right,
+        rgba(244,222,155,0.35),
+        transparent 25%),
+
+        radial-gradient(circle at top left,
+        rgba(184,212,168,0.25),
+        transparent 20%),
+
+        linear-gradient(
+        180deg,
+        #fffdf7 0%,
+        #fff8ef 100%
+        ) !important;
+}
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+.sidebar {
+
+    background:
+        linear-gradient(
+        180deg,
+        #fffdf8 0%,
+        #fff6ee 50%,
+        #fffef9 100%
+        ) !important;
+
+    border-right:
+        1px solid #f3e6cc !important;
+}
+
+.sidebar-logo {
+
+    background:
+        linear-gradient(
+        145deg,
+        #ffffff,
+        #fff8ef
+        ) !important;
+
+    border:
+        1px solid #f1e2c3 !important;
+}
+
+.sidebar-logo h2 {
+
+    color: #59613C !important;
+}
+
+.sidebar-logo p {
+
+    color: #868B63 !important;
+}
+
+.sidebar-menu a {
+
+    color: #4E5331 !important;
+}
+
+.sidebar-menu a i {
+
+    color: #B8B06D !important;
+}
+
+.sidebar-menu a:hover {
+
+    background:
+        linear-gradient(
+        135deg,
+        rgba(244,222,155,0.45),
+        rgba(184,212,168,0.30)
+        ) !important;
+
+    box-shadow:
+        0 10px 24px rgba(140,130,70,0.10);
+}
+
+.sidebar-menu a.active {
+
+    background:
+        linear-gradient(
+        135deg,
+        #C7D8A6,
+        #D8C88A
+        ) !important;
+
+    color: #3F4327 !important;
+}
+
+.sidebar-menu a.active i {
+
+    color: #5B5F3A !important;
+}
+
+/* =========================================================
+   TOP NAVBAR
+   ========================================================= */
+
+.top-navbar {
+
+    background:
+        rgba(255,251,243,0.92) !important;
+
+    border-bottom:
+        1px solid #f0e2cb !important;
+}
+
+.top-navbar h3 {
+
+    color: #59613C !important;
+}
+
+.top-navbar span {
+
+    color: #7B7F5C !important;
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.dashboard-title {
+
+    background:
+        linear-gradient(
+        135deg,
+        #B7C99A,
+        #D8C88A
+        ) !important;
+
+    box-shadow:
+        0 20px 40px rgba(157,145,86,0.18) !important;
+}
+
+.dashboard-title::before {
+
+    background:
+        radial-gradient(
+        circle,
+        rgba(255,255,255,0.28),
+        transparent 70%
+        );
+}
+
+.dashboard-title h1 {
+
+    color: #3F4327 !important;
+}
+
+.dashboard-title p {
+
+    color: #59613C !important;
+}
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+
+.dashboard-card {
+
+    background:
+        linear-gradient(
+        145deg,
+        #ffffff,
+        #fff8f0
+        ) !important;
+
+    border:
+        1px solid #f1e5d2 !important;
+}
+
+.dashboard-card::before {
+
+    background:
+        linear-gradient(
+        90deg,
+        #DCC97C,
+        #B7C99A
+        ) !important;
+}
+
+.dashboard-card h3 {
+
+    color: #7B7F5C !important;
+}
+
+.dashboard-card h2 {
+
+    color: #59613C !important;
+}
+
+/* =========================================================
+   FORM + TABLE
+   ========================================================= */
+
+.dashboard-table,
+.form-box {
+
+    background:
+        linear-gradient(
+        145deg,
+        #ffffff,
+        #fffaf2
+        ) !important;
+
+    border:
+        1px solid #f1e5d0 !important;
+}
+
+.dashboard-table h2,
+.form-box h2 {
+
+    color: #59613C !important;
+}
+
+/* =========================================================
+   TABLE HEADER
+   ========================================================= */
+
+.dashboard-table th {
+
+    background:
+        linear-gradient(
+        135deg,
+        #F4DE9B,
+        #D6E4B6
+        ) !important;
+
+    color: #4B5031 !important;
+}
+
+.dashboard-table tbody tr:hover td {
+
+    background:
+        #FFF9EA !important;
+}
+
+/* =========================================================
+   INPUT
+   ========================================================= */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+
+    border:
+        1px solid #eadfc9 !important;
+
+    background:
+        #fffefb !important;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+
+    border-color:
+        #B7C99A !important;
+
+    box-shadow:
+        0 0 0 4px rgba(183,201,154,0.20) !important;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.print-btn,
+button[type="submit"] {
+
+    background:
+        linear-gradient(
+        135deg,
+        #C8D9A9,
+        #E3D08E
+        ) !important;
+
+    color:
+        #4A4F2E !important;
+
+    box-shadow:
+        0 14px 28px rgba(171,160,93,0.22) !important;
+}
+
+.print-btn:hover,
+button[type="submit"]:hover {
+
+    background:
+        linear-gradient(
+        135deg,
+        #D6E4B6,
+        #F4DE9B
+        ) !important;
+}
+
+/* =========================================================
+   EDIT BUTTON
+   ========================================================= */
+
+.edit-btn {
+
+    background:
+        linear-gradient(
+        135deg,
+        #F4DE9B,
+        #FFE8B7
+        ) !important;
+
+    color:
+        #5A603A !important;
+}
+
+.edit-btn:hover {
+
+    background:
+        linear-gradient(
+        135deg,
+        #C7D8A6,
+        #D8C88A
+        ) !important;
+}
+
+/* =========================================================
+   STATUS
+   ========================================================= */
+
+.status-confirmed,
+.status-active,
+.status-paid {
+
+    background:
+        #EDF7E8 !important;
+
+    color:
+        #5A7445 !important;
+}
+
+.status-pending {
+
+    background:
+        #FFF3CA !important;
+
+    color:
+        #8B6F13 !important;
+}
+
+.status-cancelled {
+
+    background:
+        #FFE7DF !important;
+
+    color:
+        #A35342 !important;
+}
+
+/* =========================================================
+   LOGOUT
+   ========================================================= */
+
+.logout-btn {
+
+    background:
+        linear-gradient(
+        135deg,
+        #B7C99A,
+        #DCC97C
+        ) !important;
+
+    color:
+        #4A4F2E !important;
+}
+
+.room-grid {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(320px,1fr));
+
+    gap: 28px;
+
+    margin-top: 35px;
+}
+
+.room-card {
+
+    background: white;
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 18px 40px rgba(0,0,0,0.08);
+}
+
+.room-card:hover {
+
+    transform: translateY(-5px);
+}
+
+.room-image img {
+
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+}
+
+.room-content {
+
+    padding: 24px;
+}
+
+.room-content h3 {
+
+    font-size: 28px;
+
+    margin-bottom: 12px;
+}
+
+.room-meta {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 16px 0;
+}
+
+.room-price {
+
+    font-size: 30px;
+
+    font-weight: 800;
+
+    color: #667245;
+
+    margin-bottom: 18px;
+}
+
+.room-btn {
+
+    display: inline-block;
+
+    padding: 14px 22px;
+
+    border-radius: 14px;
+
+    background:
+        linear-gradient(
+        135deg,
+        #C8D9A9,
+        #E3D08E
+        );
+
+    color: #4A4F2E;
+
+    text-decoration: none;
+
+    font-weight: 700;
+}
+
+.room-gallery {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
+    gap: 20px;
+
+    margin: 35px 0;
+}
+
+.room-gallery img {
+
+    width: 100%;
+
+    height: 260px;
+
+    object-fit: cover;
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 12px 30px rgba(0,0,0,0.10);
+}
+
+.receipt-box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.receipt-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.receipt-box table th {
+    width: 260px;
+}
+
+.receipt-box p {
+    text-align: center;
+    color: #6f7285;
+    font-weight: 600;
+}
+
+@media print {
+    .sidebar,
+    .top-navbar,
+    .print-btn,
+    .filter-form,
+    .edit-btn,
+    .delete-btn,
+    .cancel-link {
+        display: none !important;
+    }
+
+    .main-content {
+        margin-left: 0 !important;
+        padding: 0 !important;
+        background: white !important;
+    }
+
+    .dashboard-title {
+        display: none !important;
+    }
+
+    .receipt-box {
+        box-shadow: none !important;
+        border: none !important;
+        max-width: 100% !important;
+    }
+
+    body {
+        background: white !important;
+    }
+}
